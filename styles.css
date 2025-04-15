@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: antiquewhite;
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    color: antiquewhite;
+}
+
+.title {
+    text-align: center;
+}
+
+.recipe-list {
+    margin: auto 200px;
+}
+
+.recipe-pic {
+    display: block;
+    margin: auto;
+}
+
