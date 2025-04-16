@@ -1,21 +1,30 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    color: antiquewhite;
+    background-color: rgb(48, 48, 48);
     max-width: 1000px;
     margin: auto;
 }
 
-a {
-    color: antiquewhite;
+a, body {
+    color: whitesmoke;
 }
 
 .title {
     text-align: center;
+    background-color: rgb(44, 23, 23);
+    width: fit-content;
+    padding: 12px;
+    margin: 20px auto;
 }
 
 .recipe-list {
     margin: auto 200px;
+}
+
+.recipe-list a {
+    display: inline-block;
+    height: 30px;
+    vertical-align: top;
 }
 
 .recipe-pic {
